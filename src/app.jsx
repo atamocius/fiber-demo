@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+import Display from './components/display';
+import Sample from './scenes/sample';
+// import Main from './scenes/main';
+
+export default function App() {
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
+    <Display>
+      <Sample />
+    </Display>
   );
 }
-
-export default App;
